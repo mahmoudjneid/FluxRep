@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FLURENTZA">
+    <link rel="icon" type="image/png" href="assets/logos/02_Transparent_BG_Logo.png">
+    <link rel="stylesheet" href="styles/global.css">
+    <title>FLURENTZA</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <header class="site-header site-header--overlay">
+        <a class="brand" href="index.html" aria-label="FLURENTZA home">
+          <img src="assets/logos/02_Transparent_BG_Logo.png" alt="FLURENTZA">
+          <span class="brand__name">FLURENTZA</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="nav-toggle__label">Menu</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="nav-link" href="#solutions">Solutions</a>
+          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link" href="#hero-engineering">Engineering</a>
+          <a class="nav-link" href="#hero-research">Technology Centers</a>
+          <a class="nav-link" href="#hero-engineering">Projects</a>
+          <div class="nav-item nav-item--dropdown">
+            <button class="nav-link nav-link--menu" type="button" aria-expanded="false" aria-controls="about-menu">
+              <span>About</span>
+              <span class="nav-link__chevron" aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown" id="about-menu">
+              <a href="#hero-title">Our Story</a>
+              <a href="#hero-education">Our Model</a>
+            </div>
+          </div>
+          <a class="nav-link" href="#main-content">Contact</a>
+          <a class="nav-link nav-link--language" href="#main-content" lang="en" aria-label="Language: English">EN</a>
+        </nav>
+      </header>
+
+      <main id="main-content" class="site-main">
+        <section class="cinematic-hero" data-hero aria-labelledby="hero-title">
+          <div class="hero-scenes" aria-live="off">
+            <figure class="hero-scene is-active" data-scene="0">
+              <img src="assets/Section 01-CINEMATIC HERO/01.png" alt="Advanced electric vehicle moving through a bright modern landscape" fetchpriority="high" decoding="async">
+            </figure>
+            <figure class="hero-scene" data-scene="1" aria-hidden="true">
+              <img src="assets/Section 01-CINEMATIC HERO/02.png" alt="Close view of precision electric vehicle engineering" loading="lazy" decoding="async">
+            </figure>
+            <figure class="hero-scene" data-scene="2" aria-hidden="true">
+              <img src="assets/Section 01-CINEMATIC HERO/03.png" alt="High-performance electric motor and power system" loading="lazy" decoding="async">
+            </figure>
+            <figure class="hero-scene" data-scene="3" aria-hidden="true">
+              <video class="hero-scene__video" muted playsinline preload="none" aria-hidden="true">
+                <source src="assets/Films/Hero_film.mp4" type="video/mp4">
+              </video>
+              <img src="assets/Section 01-CINEMATIC HERO/04.png" alt="Electric vehicle travelling through a clean urban environment" loading="lazy" decoding="async">
+            </figure>
+          </div>
+
+          <div class="hero-vignette" aria-hidden="true"></div>
+
+          <div class="hero-content">
+            <div class="hero-copy hero-copy--opening is-active" data-copy="0">
+              <p class="hero-kicker">Engineering</p>
+              <h1 id="hero-title"><span>Engineering</span><span>A Cleaner</span><span>Tomorrow</span></h1>
+            </div>
+            <div class="hero-copy" id="hero-engineering" data-copy="1" aria-hidden="true">
+              <p class="hero-kicker">Engineering</p>
+              <h2>Solutions for real life.</h2>
+            </div>
+            <div class="hero-copy" id="hero-research" data-copy="2" aria-hidden="true">
+              <p class="hero-kicker">Research &amp; Development</p>
+              <h2>Ideas into real solutions.</h2>
+            </div>
+            <div class="hero-copy" id="hero-education" data-copy="3" aria-hidden="true">
+              <p class="hero-kicker">Education</p>
+              <h2>Talent for a brighter tomorrow.</h2>
+            </div>
+          </div>
+
+          <div class="hero-status" aria-label="Hero scene progress">
+            <div class="hero-stepper" role="group" aria-label="Select hero scene">
+              <button class="hero-step is-active" type="button" data-scene-step="0" aria-pressed="true">01</button>
+              <button class="hero-step" type="button" data-scene-step="1" aria-pressed="false">02</button>
+              <button class="hero-step" type="button" data-scene-step="2" aria-pressed="false">03</button>
+              <button class="hero-step" type="button" data-scene-step="3" aria-pressed="false">04</button>
+            </div>
+            <div class="hero-progress" role="presentation"><span></span></div>
+            <button class="hero-next" type="button" aria-label="Next hero scene">
+              <span>Next</span>
+              <span class="hero-next__arrow" aria-hidden="true"></span>
+            </button>
+          </div>
+        </section>
+
+        <section class="solutions-section" id="solutions" aria-labelledby="solutions-title" data-solutions>
+          <div class="solutions-intro">
+            <p class="solutions-kicker">Solutions</p>
+            <div class="solutions-intro__body">
+              <h2 id="solutions-title">Engineering solutions for complex systems.</h2>
+              <p>FLURENTZA develops and integrates advanced technologies across electric mobility, energy, materials, intelligent control and multi-physics systems &mdash; from individual technologies to complete integrated systems.</p>
+              <a class="solutions-transition" href="#solutions-feed">Explore solutions <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+
+          <div class="solutions-grid" id="solutions-feed">
+            <article class="solution-domain solution-domain--lead">
+              <div class="solution-domain__visual solution-domain__visual--drive"><img src="assets/Section 02-Solutions/01_Electric Drive System.png" alt="Electric drive system engineering assembly and technical performance analysis"></div>
+              <div class="solution-domain__content"><h3>Electric Drive Systems</h3><p class="solution-domain__summary">High-performance electric drive architectures engineered for efficiency, response and complete system integration.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-01">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-01" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>Electric propulsion demands coordinated motor, inverter and machine design without compromising response or efficiency.</p><p class="solution-domain__detail-label">Approach</p><p>Drive architectures are developed as integrated systems, aligning electromagnetic performance, power conversion and mechanical requirements.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Efficient, responsive drive solutions shaped around the complete machine and its operating conditions.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>Radial Flux Motors</li><li>Axial Flux Motors</li><li>Magnetless Synchronous Motors</li><li>High-performance Electric Drives</li><li>Integrated Motor-Drive Systems</li></ul></div></div>
+            </article>
+            <article class="solution-domain solution-domain--energy-scene">
+              <div class="solution-domain__visual solution-domain__visual--energy"><img src="assets/Section 02-Solutions/02_Energy Systems.png" alt=""></div>
+              <div class="solution-domain__content"><h3>Energy Systems</h3><p class="solution-domain__summary">Energy architectures engineered for high-density storage, efficient conversion and resilient system operation.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-02">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-02" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>Energy platforms must balance storage capacity, conversion efficiency and dependable operation across changing load conditions.</p><p class="solution-domain__detail-label">Approach</p><p>Architectures are evaluated as connected storage and conversion systems, with the operating context guiding technology selection and integration.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Resilient energy solutions aligned with the duty cycle, integration constraints and performance priorities of the application.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>Battery Systems</li><li>Fuel Cell Systems</li><li>Energy Storage</li><li>Hybrid Energy Systems</li><li>Alternative Energy Technologies</li></ul></div></div>
+            </article>
+            <article class="solution-domain solution-domain--control-scene">
+              <div class="solution-domain__visual solution-domain__visual--control"><img src="assets/Section 02-Solutions/03_Intelligent Control &amp; Energy Management.png" alt=""></div>
+              <div class="solution-domain__content"><h3>Intelligent Control &amp; Energy Management</h3><p class="solution-domain__summary">Control and energy-management systems that coordinate complex power flows for predictable, optimized system performance.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-03">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-03" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>Electrified systems operate through interdependent power flows that must be coordinated across modes, loads and constraints.</p><p class="solution-domain__detail-label">Approach</p><p>Control, supervision and energy-management strategies connect system sensing with decisions that keep operation clear and predictable.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Better-coordinated system behavior with operating decisions tied to efficiency, response and available energy.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>Advanced Control</li><li>Energy Management Systems</li><li>Power Management</li><li>Optimization</li><li>Supervisory Control</li></ul></div></div>
+            </article>
+            <article class="solution-domain solution-domain--wide solution-domain--materials-scene">
+              <div class="solution-domain__visual solution-domain__visual--materials"><img src="assets/Section 02-Solutions/04_Advanced Materials &amp; Circularity.png" alt=""></div>
+              <div class="solution-domain__content"><h3>Advanced Materials &amp; Circularity</h3><p class="solution-domain__summary">Advanced material strategies that improve performance, resource efficiency and the useful life of engineered systems.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-04">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-04" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>Material choices influence system performance, manufacturability, resource use and the value retained at end of life.</p><p class="solution-domain__detail-label">Approach</p><p>Material strategies connect functional requirements with selection, optimization, thermal and structural behavior, and recovery pathways.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Material decisions that support durable performance while reducing avoidable resource and lifecycle burdens.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>Functional &amp; Engineering Materials</li><li>Material Selection &amp; Optimization</li><li>Magnetic Materials</li><li>Thermal / Structural Materials</li><li>Recycling &amp; Material Recovery</li><li>Circular Engineering</li></ul></div></div>
+            </article>
+            <article class="solution-domain solution-domain--physics-scene">
+              <div class="solution-domain__visual solution-domain__visual--physics"><img src="assets/Section 02-Solutions/05_Multi-Physics &amp; System Optimization.png" alt=""></div>
+              <div class="solution-domain__content"><h3>Multi-Physics &amp; System Optimization</h3><p class="solution-domain__summary">Connected simulation and validation across the physical behaviors that determine system performance.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-05">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-05" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>System performance is shaped by physical behaviors that interact across domains and cannot be resolved in isolation.</p><p class="solution-domain__detail-label">Approach</p><p>Connected simulation and validation bring electromagnetic, thermal, structural and acoustic behavior into one optimization process.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Clearer trade-offs and more confident design decisions before systems reach physical validation.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>Electromagnetic</li><li>Thermal</li><li>Structural</li><li>NVH</li><li>Multi-domain Optimization</li><li>Digital Simulation &amp; Validation</li></ul></div></div>
+            </article>
+            <article class="solution-domain solution-domain--final solution-domain--systems-scene">
+              <div class="solution-domain__visual solution-domain__visual--systems"><img src="assets/Section 02-Solutions/06_Multi-Physics &amp; System Optimization.png" alt=""></div>
+              <div class="solution-domain__content"><h3>Integrated Engineering Systems</h3><p class="solution-domain__summary">Integrated engineering from system architecture through validated prototypes, connecting technologies into complete working systems.</p><button class="solution-domain__explore" type="button" aria-expanded="false" aria-controls="solution-detail-06">Explore solution <span aria-hidden="true">&rarr;</span></button><div class="solution-domain__detail" id="solution-detail-06" hidden><p class="solution-domain__detail-label">Engineering challenge</p><p>Moving from individual technologies to a working system requires architecture, interfaces and validation to remain aligned.</p><p class="solution-domain__detail-label">Approach</p><p>System-level engineering connects technology definition, integration and prototype validation into one development path.</p><p class="solution-domain__detail-label">Engineering outcomes</p><p>Complete working systems with the relationships between components understood, tested and ready to advance.</p><p class="solution-domain__detail-label">Capabilities</p><ul class="solution-domain__technologies"><li>System Architecture</li><li>Powertrain Systems</li><li>Energy Conversion</li><li>System Integration</li><li>Prototype-to-Validation Development</li></ul></div></div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="scripts/main.js" defer></script>
+  </body>
+</html>

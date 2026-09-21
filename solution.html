@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FLURENTZA engineering solution">
+    <link rel="icon" type="image/png" href="assets/logos/02_Transparent_BG_Logo.png">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/solution-detail.css">
+    <title>FLURENTZA Solutions</title>
+  </head>
+  <body class="solution-detail-page">
+    <a class="skip-link" href="#solution-main">Skip to content</a>
+    <div class="site-shell">
+      <div class="solution-header">
+      <header class="site-header site-header--overlay">
+        <a class="brand" href="index.html" aria-label="FLURENTZA home">
+          <img src="assets/logos/02_Transparent_BG_Logo.png" alt="FLURENTZA">
+          <span class="brand__name">FLURENTZA</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="nav-toggle__label">Menu</span>
+          <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="nav-link" href="index.html#solutions">Solutions</a>
+          <a class="nav-link" href="index.html#hero-engineering">Products</a>
+          <a class="nav-link" href="index.html#hero-engineering">Engineering</a>
+          <a class="nav-link" href="index.html#hero-research">Technology Centers</a>
+          <a class="nav-link" href="index.html#hero-engineering">Projects</a>
+          <div class="nav-item nav-item--dropdown">
+            <button class="nav-link nav-link--menu" type="button" aria-expanded="false" aria-controls="about-menu">
+              <span>About</span><span class="nav-link__chevron" aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown" id="about-menu">
+              <a href="index.html#hero-title">Our Story</a>
+              <a href="index.html#hero-education">Our Model</a>
+            </div>
+          </div>
+          <a class="nav-link" href="index.html#main-content">Contact</a>
+          <a class="nav-link nav-link--language" href="index.html#main-content" lang="en" aria-label="Language: English">EN</a>
+        </nav>
+      </header>
+
+      <nav class="solution-context" aria-label="Solution context" data-solution-context></nav>
+      </div>
+
+      <main id="solution-main" class="solution-main">
+        <article class="solution-story" data-solution-story></article>
+      </main>
+    </div>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/solution-details.js" defer></script>
+  </body>
+</html>
